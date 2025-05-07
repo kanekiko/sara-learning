@@ -28,7 +28,7 @@
 
 /*
  *Exo 3 :
- *Transforme une boucle for en boucle while
+ * Transforme une boucle for en boucle while
 */
 // for (let i = 1; i <= 5; i++) {
 //   console.log(i);
@@ -38,3 +38,15 @@
 //   console.log(bcl)
 //   bcl++;
 // }
+
+/*
+ *Exo 4 :
+ * Écris une boucle (celle de ton choix, for ou while) qui affiche tous les nombres pairs de 0 à 10 inclus.
+ * Pense à comment tu peux vérifier si un nombre est pair (l'opérateur modulo % pourrait t'être utile !).
+*/
+// for (i = 0; i <= 10; i++) {
+//   if ((i % 2) === 0) {
+//     console.log(i)
+//   }
+// }
+
