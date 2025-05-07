@@ -25,3 +25,16 @@
 // console.log(leNb10Str + leNb5); //affiche 105 car il y a une concaténation (chaine de carractère + chiffre = string)
 // let leNb10 = Number(leNb10Str);
 // console.log(leNb10 + leNb5); //affiche 15 car il y a addition
+
+/*
+ *Exo 3 :
+ *Transforme une boucle for en boucle while
+*/
+// for (let i = 1; i <= 5; i++) {
+//   console.log(i);
+// }
+// let bcl = 1;
+// while (bcl <= 5) {
+//   console.log(bcl)
+//   bcl++;
+// }
