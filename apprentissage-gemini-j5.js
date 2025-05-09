@@ -107,6 +107,12 @@
  * Compte à rebours : Écris une boucle while qui compte à rebours de 10 à 1 et affiche chaque nombre dans la console. 
  * Une fois arrivé à 0, affiche "Décollage !".
 */
+let compteARebours = 10;
+while (compteARebours >= 1) {
+  console.log(compteARebours);
+  compteARebours--;
+}
+console.log("Décollage !");
 
 /*
  *Exo 10:
