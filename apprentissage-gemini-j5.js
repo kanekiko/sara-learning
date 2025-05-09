@@ -145,18 +145,23 @@
  * Validation de l'âge (avec do...while): Demande à l'utilisateur d'entrer son âge en utilisant do...while. 
  * Continue de demander jusqu'à ce qu'il entre un nombre positif. Ensuite, affiche l'âge entré.
 */
-let ageUtilisateur;
-do {
-  ageUtilisateur = Number(prompt("Entre ton âge."));
-} while (ageUtilisateur <= 0);
-console.log(`Tu as ${ageUtilisateur} ans.`);
+// let ageUtilisateur;
+// do {
+//   ageUtilisateur = Number(prompt("Entre ton âge."));
+// } while (ageUtilisateur <= 0);
+// console.log(`Tu as ${ageUtilisateur} ans.`);
 
 /*
  *Exo 12:
  * Table de multiplication : Demande à l'utilisateur d'entrer un nombre. 
- * Utilise une boucle for pour afficher la table de multiplication de ce nombre de 1 à 10 (par exemple, si l'utilisateur entre 5, afficher 5x1=5, 5x2=10, ..., 5x10=50).
-
+ * Utilise une boucle for pour afficher la table de multiplication de ce nombre de 1 à 10 
+ * (par exemple, si l'utilisateur entre 5, afficher 5x1=5, 5x2=10, ..., 5x10=50).
 */
+let nbUtilisateur = Number(prompt("Entre un nombre"));
+for (i = 1; i <= 10; i++) {
+  let tableMultiplication = nbUtilisateur * i;
+  console.log(tableMultiplication);
+}
 
 /*
  *Exo 13:
