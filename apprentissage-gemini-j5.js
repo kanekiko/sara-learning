@@ -116,35 +116,40 @@
 
 /*
  *Exo 10:
- * Choix de couleur : Demande à l'utilisateur d'entrer le nom d'une couleur (par exemple, "rouge", "bleu", "vert"). 
- * Utilise une instruction switch pour afficher un message différent pour chaque couleur (par exemple, "Le rouge est une couleur chaude.", "Le bleu est apaisant.", etc.). 
+ * Choix de couleur : Demande à l'utilisateur d'entrer le nom d'une couleur (par exemple, "rouge", "bleu", "vert").
+ * Utilise une instruction switch pour afficher un message différent pour chaque couleur (par exemple, "Le rouge est une couleur chaude.", "Le bleu est apaisant.", etc.).
  * Ajoute un cas default pour les couleurs non reconnues.
 */
-let couleurUtilisateur = prompt("Entrer une couleur primaire.");
-let message;
-switch (couleurUtilisateur) {
-  case "bleu":
-    message = "Le bleu est apaisant.";
-    break;
+// let couleurUtilisateur = prompt("Entrer une couleur primaire.");
+// let message;
+// switch (couleurUtilisateur) {
+//   case "bleu":
+//     message = "Le bleu est apaisant.";
+//     break;
 
-  case "rouge":
-    message = "Le rouge est une couleur chaude."
-    break;
+//   case "rouge":
+//     message = "Le rouge est une couleur chaude."
+//     break;
 
-  case "vert":
-    message = "Le vert est une couleur déprimante"
-    break;
+//   case "vert":
+//     message = "Le vert est une couleur déprimante"
+//     break;
 
-  default:
-    message = "Ce n'est pas une couleur primaire."
-}
-console.log(message);
+//   default:
+//     message = "Ce n'est pas une couleur primaire."
+// }
+// console.log(message);
 
 /*
  *Exo 11:
  * Validation de l'âge (avec do...while): Demande à l'utilisateur d'entrer son âge en utilisant do...while. 
  * Continue de demander jusqu'à ce qu'il entre un nombre positif. Ensuite, affiche l'âge entré.
 */
+let ageUtilisateur;
+do {
+  ageUtilisateur = Number(prompt("Entre ton âge."));
+} while (ageUtilisateur <= 0);
+console.log(`Tu as ${ageUtilisateur} ans.`);
 
 /*
  *Exo 12:
