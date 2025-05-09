@@ -54,10 +54,10 @@
  *Exo 5:
  * Âge futur : Demande l'âge de l'utilisateur avec prompt. Ensuite, affiche dans une alert l'âge qu'il aura dans 10 ans.
 */
-let ageUtilisateurStr = prompt("Renseigner votre âge.");
-let ageUtilisateur = Number(ageUtilisateurStr);
-let ageUtilisateur10Ans = ageUtilisateur + 10;
-alert("Dans 10 ans l'utilisateur aura " + ageUtilisateur10Ans + " ans.");
+// let ageUtilisateurStr = prompt("Renseigner votre âge.");
+// let ageUtilisateur = Number(ageUtilisateurStr);
+// let ageUtilisateur10Ans = ageUtilisateur + 10;
+// alert("Dans 10 ans l'utilisateur aura " + ageUtilisateur10Ans + " ans.");
 
 /*
  *Exo 6:
@@ -65,6 +65,14 @@ alert("Dans 10 ans l'utilisateur aura " + ageUtilisateur10Ans + " ans.");
  * Affiche une salutation personnalisée dans une alert (par exemple, "Bonjour, [prénom] !"). 
  * Si l'utilisateur annule, affiche un message générique ("Bonjour !").
 */
+let prenomUtilisateur = prompt("Quel est votre prénom?");
+let prenomAfficher = prenomUtilisateur ?? ""
+alert("Bonjour " + prenomAfficher + "!"); // Bien mais l'énoncé demandait d'afficher un message générique donc if était + adapté
+if (prenomUtilisateur) {
+  alert("Bonjour " + prenomAfficher + "!");
+} else {
+  alert("Bonjour !");
+}
 
 /*
  *Exo 7:
