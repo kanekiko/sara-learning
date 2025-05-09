@@ -61,8 +61,8 @@
 
 /*
  *Exo 6:
- * Salutation personnalisée : Demande le prénom de l'utilisateur avec prompt. 
- * Affiche une salutation personnalisée dans une alert (par exemple, "Bonjour, [prénom] !"). 
+ * Salutation personnalisée : Demande le prénom de l'utilisateur avec prompt.
+ * Affiche une salutation personnalisée dans une alert (par exemple, "Bonjour, [prénom] !").
  * Si l'utilisateur annule, affiche un message générique ("Bonjour !").
 */
 // let prenomUtilisateur = prompt("Quel est votre prénom?");
@@ -76,24 +76,31 @@
 
 /*
  *Exo 7:
- * Comparaison de nombres : Demande à l'utilisateur d'entrer deux nombres avec deux prompt. 
+ * Comparaison de nombres : Demande à l'utilisateur d'entrer deux nombres avec deux prompt.
  * Affiche dans une alert si le premier nombre est plus grand, plus petit, ou égal au deuxième.
 */
-let nb1 = Number(prompt("Entrer un premier nombre."));
-let nb2 = Number(prompt("Entrer un deuxième nombre."));
-if (nb1 > nb2) {
-  alert(nb1 + " est plus grand que " + nb2);
-} else if (nb1 < nb2) {
-  alert(nb1 + " est plus petit que " + nb2);
-} else {
-  alert(nb1 + " est égal à " + nb2);
-}
+// let nb1 = Number(prompt("Entrer un premier nombre."));
+// let nb2 = Number(prompt("Entrer un deuxième nombre."));
+// if (nb1 > nb2) {
+//   alert(nb1 + " est plus grand que " + nb2);
+// } else if (nb1 < nb2) {
+//   alert(nb1 + " est plus petit que " + nb2);
+// } else {
+//   alert(nb1 + " est égal à " + nb2);
+// }
 
 /*
  *Exo 8:
- * Pair ou impair : Demande à l'utilisateur d'entrer un nombre. 
+ * Pair ou impair : Demande à l'utilisateur d'entrer un nombre.
  * Utilise une boucle for pour afficher tous les nombres pairs de 0 jusqu'au nombre entré (inclus).
 */
+// let nb = Number(prompt("Renseigner un nombre."));
+// for (i = 0; i <= nb; i++) {
+//   if ((i % 2) === 0) {
+//     console.log(i);
+//   }
+// }
+
 
 /*
  *Exo 9:
