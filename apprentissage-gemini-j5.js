@@ -50,3 +50,64 @@
 //   }
 // }
 
+/*
+ *Exo 5:
+ * Âge futur : Demande l'âge de l'utilisateur avec prompt. Ensuite, affiche dans une alert l'âge qu'il aura dans 10 ans.
+ * Vérification de majorité : Demande l'âge de l'utilisateur. Utilise un opérateur de comparaison et une condition if/else pour afficher s'il est majeur (18 ans ou plus) ou mineur.
+*/
+
+/*
+ *Exo 6:
+ * Salutation personnalisée : Demande le prénom de l'utilisateur avec prompt. 
+ * Affiche une salutation personnalisée dans une alert (par exemple, "Bonjour, [prénom] !"). 
+ * Si l'utilisateur annule, affiche un message générique ("Bonjour !").
+*/
+
+/*
+ *Exo 7:
+ * Comparaison de nombres : Demande à l'utilisateur d'entrer deux nombres avec deux prompt. 
+ * Affiche dans une alert si le premier nombre est plus grand, plus petit, ou égal au deuxième.
+*/
+
+/*
+ *Exo 8:
+ * Pair ou impair : Demande à l'utilisateur d'entrer un nombre. 
+ * Utilise une boucle for pour afficher tous les nombres pairs de 0 jusqu'au nombre entré (inclus).
+*/
+
+/*
+ *Exo 9:
+ * Compte à rebours : Écris une boucle while qui compte à rebours de 10 à 1 et affiche chaque nombre dans la console. 
+ * Une fois arrivé à 0, affiche "Décollage !".
+*/
+
+/*
+ *Exo 10:
+ * Choix de couleur : Demande à l'utilisateur d'entrer le nom d'une couleur (par exemple, "rouge", "bleu", "vert"). 
+ * Utilise une instruction switch pour afficher un message différent pour chaque couleur (par exemple, "Le rouge est une couleur chaude.", "Le bleu est apaisant.", etc.). 
+ * Ajoute un cas default pour les couleurs non reconnues.
+*/
+
+/*
+ *Exo 11:
+ * Validation de l'âge (avec do...while): Demande à l'utilisateur d'entrer son âge en utilisant do...while. 
+ * Continue de demander jusqu'à ce qu'il entre un nombre positif. Ensuite, affiche l'âge entré.
+*/
+
+/*
+ *Exo 12:
+ * Table de multiplication : Demande à l'utilisateur d'entrer un nombre. 
+ * Utilise une boucle for pour afficher la table de multiplication de ce nombre de 1 à 10 (par exemple, si l'utilisateur entre 5, afficher 5x1=5, 5x2=10, ..., 5x10=50).
+
+*/
+
+/*
+ *Exo 13:
+ * Première lettre : Demande à l'utilisateur d'entrer un mot. Affiche la première lettre de ce mot dans une alert.
+*/
+
+/*
+ *Exo 14:
+ * Vérification de majorité : Demande l'âge de l'utilisateur. 
+ * Utilise un opérateur de comparaison et une condition if/else pour afficher s'il est majeur (18 ans ou plus) ou mineur.
+*/
