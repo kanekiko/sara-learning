@@ -104,15 +104,15 @@
 
 /*
  *Exo 9:
- * Compte à rebours : Écris une boucle while qui compte à rebours de 10 à 1 et affiche chaque nombre dans la console. 
+ * Compte à rebours : Écris une boucle while qui compte à rebours de 10 à 1 et affiche chaque nombre dans la console.
  * Une fois arrivé à 0, affiche "Décollage !".
 */
-let compteARebours = 10;
-while (compteARebours >= 1) {
-  console.log(compteARebours);
-  compteARebours--;
-}
-console.log("Décollage !");
+// let compteARebours = 10;
+// while (compteARebours >= 1) {
+//   console.log(compteARebours);
+//   compteARebours--;
+// }
+// console.log("Décollage !");
 
 /*
  *Exo 10:
@@ -120,6 +120,25 @@ console.log("Décollage !");
  * Utilise une instruction switch pour afficher un message différent pour chaque couleur (par exemple, "Le rouge est une couleur chaude.", "Le bleu est apaisant.", etc.). 
  * Ajoute un cas default pour les couleurs non reconnues.
 */
+let couleurUtilisateur = prompt("Entrer une couleur primaire.");
+let message;
+switch (couleurUtilisateur) {
+  case "bleu":
+    message = "Le bleu est apaisant.";
+    break;
+
+  case "rouge":
+    message = "Le rouge est une couleur chaude."
+    break;
+
+  case "vert":
+    message = "Le vert est une couleur déprimante"
+    break;
+
+  default:
+    message = "Ce n'est pas une couleur primaire."
+}
+console.log(message);
 
 /*
  *Exo 11:
