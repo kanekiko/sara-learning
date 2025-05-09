@@ -65,20 +65,29 @@
  * Affiche une salutation personnalisée dans une alert (par exemple, "Bonjour, [prénom] !"). 
  * Si l'utilisateur annule, affiche un message générique ("Bonjour !").
 */
-let prenomUtilisateur = prompt("Quel est votre prénom?");
-let prenomAfficher = prenomUtilisateur ?? ""
-alert("Bonjour " + prenomAfficher + "!"); // Bien mais l'énoncé demandait d'afficher un message générique donc if était + adapté
-if (prenomUtilisateur) {
-  alert("Bonjour " + prenomAfficher + "!");
-} else {
-  alert("Bonjour !");
-}
+// let prenomUtilisateur = prompt("Quel est votre prénom?");
+// let prenomAfficher = prenomUtilisateur ?? ""
+// alert("Bonjour " + prenomAfficher + "!"); // Bien mais l'énoncé demandait d'afficher un message générique donc if était + adapté
+// if (prenomUtilisateur) {
+//   alert("Bonjour " + prenomAfficher + "!");
+// } else {
+//   alert("Bonjour !");
+// }
 
 /*
  *Exo 7:
  * Comparaison de nombres : Demande à l'utilisateur d'entrer deux nombres avec deux prompt. 
  * Affiche dans une alert si le premier nombre est plus grand, plus petit, ou égal au deuxième.
 */
+let nb1 = Number(prompt("Entrer un premier nombre."));
+let nb2 = Number(prompt("Entrer un deuxième nombre."));
+if (nb1 > nb2) {
+  alert(nb1 + " est plus grand que " + nb2);
+} else if (nb1 < nb2) {
+  alert(nb1 + " est plus petit que " + nb2);
+} else {
+  alert(nb1 + " est égal à " + nb2);
+}
 
 /*
  *Exo 8:
