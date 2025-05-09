@@ -157,16 +157,19 @@
  * Utilise une boucle for pour afficher la table de multiplication de ce nombre de 1 à 10 
  * (par exemple, si l'utilisateur entre 5, afficher 5x1=5, 5x2=10, ..., 5x10=50).
 */
-let nbUtilisateur = Number(prompt("Entre un nombre"));
-for (i = 1; i <= 10; i++) {
-  let tableMultiplication = nbUtilisateur * i;
-  console.log(tableMultiplication);
-}
+// let nbUtilisateur = Number(prompt("Entre un nombre"));
+// for (i = 1; i <= 10; i++) {
+//   let tableMultiplication = nbUtilisateur * i;
+//   console.log(tableMultiplication);
+// }
 
 /*
  *Exo 13:
  * Première lettre : Demande à l'utilisateur d'entrer un mot. Affiche la première lettre de ce mot dans une alert.
 */
+let motUtilisateur = prompt("Entrer un mot");
+let premiereLettre = motUtilisateur[0];
+alert(`La première lettre de ${motUtilisateur} est ${premiereLettre}`);
 
 /*
  *Exo 14:
