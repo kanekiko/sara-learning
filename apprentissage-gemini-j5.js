@@ -53,8 +53,11 @@
 /*
  *Exo 5:
  * Âge futur : Demande l'âge de l'utilisateur avec prompt. Ensuite, affiche dans une alert l'âge qu'il aura dans 10 ans.
- * Vérification de majorité : Demande l'âge de l'utilisateur. Utilise un opérateur de comparaison et une condition if/else pour afficher s'il est majeur (18 ans ou plus) ou mineur.
 */
+let ageUtilisateurStr = prompt("Renseigner votre âge.");
+let ageUtilisateur = Number(ageUtilisateurStr);
+let ageUtilisateur10Ans = ageUtilisateur + 10;
+alert("Dans 10 ans l'utilisateur aura " + ageUtilisateur10Ans + " ans.");
 
 /*
  *Exo 6:
