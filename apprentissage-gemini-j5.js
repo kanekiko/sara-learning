@@ -142,7 +142,7 @@
 
 /*
  *Exo 11:
- * Validation de l'âge (avec do...while): Demande à l'utilisateur d'entrer son âge en utilisant do...while. 
+ * Validation de l'âge (avec do...while): Demande à l'utilisateur d'entrer son âge en utilisant do...while.
  * Continue de demander jusqu'à ce qu'il entre un nombre positif. Ensuite, affiche l'âge entré.
 */
 // let ageUtilisateur;
@@ -153,8 +153,8 @@
 
 /*
  *Exo 12:
- * Table de multiplication : Demande à l'utilisateur d'entrer un nombre. 
- * Utilise une boucle for pour afficher la table de multiplication de ce nombre de 1 à 10 
+ * Table de multiplication : Demande à l'utilisateur d'entrer un nombre.
+ * Utilise une boucle for pour afficher la table de multiplication de ce nombre de 1 à 10
  * (par exemple, si l'utilisateur entre 5, afficher 5x1=5, 5x2=10, ..., 5x10=50).
 */
 // let nbUtilisateur = Number(prompt("Entre un nombre"));
@@ -167,12 +167,18 @@
  *Exo 13:
  * Première lettre : Demande à l'utilisateur d'entrer un mot. Affiche la première lettre de ce mot dans une alert.
 */
-let motUtilisateur = prompt("Entrer un mot");
-let premiereLettre = motUtilisateur[0];
-alert(`La première lettre de ${motUtilisateur} est ${premiereLettre}`);
+// let motUtilisateur = prompt("Entrer un mot");
+// let premiereLettre = motUtilisateur[0];
+// alert(`La première lettre de ${motUtilisateur} est ${premiereLettre}`);
 
 /*
  *Exo 14:
  * Vérification de majorité : Demande l'âge de l'utilisateur. 
  * Utilise un opérateur de comparaison et une condition if/else pour afficher s'il est majeur (18 ans ou plus) ou mineur.
 */
+let ageUtilisateur = Number(prompt("Quel âge avez-vous?"));
+if (ageUtilisateur >= 18) {
+  alert("Vous êtes majeur.");
+} else {
+  alert("Vous êtes mineur.");
+}
