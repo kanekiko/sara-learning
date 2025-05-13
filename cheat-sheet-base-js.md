@@ -80,16 +80,45 @@
     * Notation crochet : \`monObjet\['clé2'\]\`
 * **Méthodes :** Fonctions associées à un objet. Utilisation de \`this\`.
 
-### Les tableaux :
+### Les Tableaux : 
 
-* **Définition :** Une collection ordonnée d'éléments.
-* **Syntaxe de création (littéral) :**
-    \`\`\`javascript
-    let monTableau = [element0, element1, element2];
-    \`\`\`
-* **Index :** Position des éléments (débute à 0).
-* **Accès aux éléments :** \`monTableau\[index\]\`
-* **Méthodes courantes :** \`push()\`, \`pop()\`, \`shift()\`, \`unshift()\`, \`.length\`.
+1.  **Création :**
+    * Littéral de tableau : \`\`\`javascript
+      let monTableau = [element1, element2];
+      \`\`\`
+    * Constructeur \`Array\` (moins courant pour les tableaux simples).
+
+2.  **Accès aux éléments :**
+    * Via leur index (qui commence à 0) : \`monTableau[0]\`.
+    * Si l'index n'existe pas, on obtient \`undefined\`.
+
+3.  **Propriété \`length\` :**
+    * Retourne le nombre d'éléments dans le tableau.
+    * Est mise à jour dynamiquement.
+
+4.  **Manipulation des éléments :**
+    * **Ajouter :**
+        * \`push(element)\`: à la fin.
+        * \`unshift(element)\`: au début.
+        * Affectation à un index : \`monTableau[index] = valeur\`.
+    * **Supprimer :**
+        * \`pop()\`: de la fin (renvoie l'élément supprimé).
+        * \`shift()\`: du début (renvoie l'élément supprimé).
+        * \`splice(index, nombreASupprimer, ...elementsAAjouter)\`: à une position spécifique.
+
+5.  **Autres opérations :**
+    * \`slice(debut, fin)\`: extrait une portion (nouveau tableau).
+    * \`concat(...tableaux)\`: fusionne des tableaux (nouveau tableau).
+    * \`join(separateur)\`: transforme en chaîne.
+    * \`indexOf(element)\`: trouve la première occurrence (renvoie l'index ou -1).
+    * \`lastIndexOf(element)\`: trouve la dernière occurrence.
+
+6.  **Méthodes d'itération :**
+    * \`forEach(fonction)\`: exécute une fonction pour chaque élément.
+    * \`map(fonction)\`: crée un nouveau tableau en appliquant une fonction.
+    * \`filter(fonction)\`: crée un nouveau tableau avec les éléments qui passent un test.
+    * \`reduce(fonction, valeurInitiale)\`: réduit le tableau à une seule valeur.
+
 
 
 
